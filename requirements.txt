@@ -1,0 +1,12 @@
+beautifulsoup4
+scikit-learn
+tensorflow
+keras
+pandas
+numpy
+nltk
+fuzzywuzzy[speedup]
+python-Levenshtein
+joblib
+distance
+streamlit
