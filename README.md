@@ -12,24 +12,25 @@
 
 </div>
 
+<br>
+
+<br>
 
 #  Quora Duplicate Question Detection
 
-This project uses a machine learning model to detect whether two Quora questions are duplicates. It involves feature engineering, preprocessing, and model training to classify question pairs.
+This project uses a machine learning model to detect whether two Quora questions are duplicates. It involves feature engineering, preprocessing, and model training to classify question pairs. <br><br>
 
----
 
 ## 🚀 Live Demo
 
-You can try the web app live here: **[🔗 Hugging Face Space](https://huggingface.co/spaces/tarkpatel/duplicate-question-detector)**
+You can try the web app live here: **[🔗 Hugging Face Space](https://huggingface.co/spaces/tarkpatel/duplicate-question-detector)** <br><br>
 
----
+
 
 ## 📂 Dataset
 
-The dataset used is the [Quora Question Pairs](https://www.kaggle.com/competitions/quora-question-pairs/data), which contains over 400,000 question pairs.
+The dataset used is the [Quora Question Pairs](https://www.kaggle.com/competitions/quora-question-pairs/data), which contains over 400,000 question pairs. <br><br>
 
----
 
 ## 🔍 Features Engineered
 - I Preprocess Question 1 & Question 2 Column.
@@ -56,9 +57,15 @@ Custom features were created to capture the similarity between questions:
 - **`fuzz_ratio`** – Fuzzy string match ratio  
 - **`fuzz_partial_ratio`** – Partial fuzzy match score  
 - **`token_sort_ratio`** – Fuzzy match after sorting tokens  
-- **`token_set_ratio`** – Fuzzy match using token sets  
+- **`token_set_ratio`** – Fuzzy match using token sets <br><br>
 
----
+
+
+
+## 🚀 Model Used
+- ✅ Long Short-Term Memory (LSTM) Neural Network
+- ✅ Combined with handcrafted features (e.g., fuzzy ratios, word overlap, length differences) <br><br>
+
 
 ## 🛠️ Tech Stack
 
@@ -68,8 +75,7 @@ Custom features were created to capture the similarity between questions:
 - NLTK
 - FuzzyWuzzy
 - Streamlit (for Web App)
-- Hugging Face Spaces (for deployment)
+- Hugging Face Spaces (for deployment) <br><br>
 
----
 
-## Tark Patel 😎
+Developed by **Tark Patel 😎**
